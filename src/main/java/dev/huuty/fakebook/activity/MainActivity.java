@@ -16,6 +16,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import dev.huuty.fakebook.R;
+import dev.huuty.fakebook.util.BottomNavigationViewHelper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setItemBackgroundResource(R.color.colorPrimary);
         bottomNavigation.setItemTextColor(ContextCompat.getColorStateList(bottomNavigation.getContext(), R.color.nav_item_colors));
         bottomNavigation.setItemIconTintList(ContextCompat.getColorStateList(bottomNavigation.getContext(), R.color.nav_item_colors));
-//        BottomNavigationViewHelper.removeShiftMode(bottomNavigation);
+        BottomNavigationViewHelper.removeShiftMode(bottomNavigation);
 //
 //        newsFeedFragment = new NewsFeedFragment();
 //        notificationFragment = new NotificationFragment();

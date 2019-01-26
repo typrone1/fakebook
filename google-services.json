@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "683481024977",
+    "firebase_url": "https://chatbotzui.firebaseio.com",
+    "project_id": "chatbotzui",
+    "storage_bucket": "chatbotzui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683481024977:android:e6bb75203f10b2a0",
+        "android_client_info": {
+          "package_name": "dev.huuty.fakebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683481024977-2apbceecjvme0ks7usijd0flh33m4iut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPdfkGmm1RBWuV5Cpf280TSCMsSdxWvhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
